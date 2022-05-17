@@ -1,0 +1,7 @@
+Q1 : What is cherry-pick? Explain the use case of it also write steps to do it.
+
+=> It is used to apply some commit fromm one branch to another branch.
+   When you made some changes in another branch and now you want to apply these changes in you branch without merging all data.
+   We use cherry-pick
+
+
