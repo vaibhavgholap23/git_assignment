@@ -1,5 +1,12 @@
 cherry pick is a command that enables to pick a commit from a branch and apply it to another.
 It is useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
 Steps:
-1. Switch to the branch on which you want to apply the commit
+1. git checkout <name of branch you’d like to grab commit from>
+2. Enter the command "git log".
+3. Identify the commit which you want to drag.
+4. Note or copy the identified commit id (hash).
+5. Switch to the branch in which u want to apply the commit.
+   git checkout <name of branch you would like to add commit to>
+6. git cherry-pick <commit id>
+7. Confirm by command "git log".
  
