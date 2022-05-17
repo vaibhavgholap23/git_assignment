@@ -1,0 +1,8 @@
+
+Q6: How to un stage changes from the staged area. write command for it.
+
+=> We can unstage files from staged area using reset command
+
+	Command : git reset
+
+  Using above command we can un stage all files from stagged area
