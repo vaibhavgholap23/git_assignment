@@ -1,0 +1,18 @@
+Q1 : What is cherry-pick? Explain the use case of it also write steps to do it.
+
+=> It is used to apply some commit fromm one branch to another branch.
+   When you made some changes in another branch and now you want to apply these changes in you branch without merging all data.
+   We use cherry-pick
+
+=> Git cherry-pick is helpful to apply the changes that are accidentally made in the wrong branch.
+   Suppose I want to make a commit in the master branch, but by mistake, we made it in any other branch. 
+
+
+=> Steps : 
+	first get git log :
+		Command : git log
+	Then we get all commits on that branch with cpmmit id copy that.
+		Command : git cherry-pick <commit-Id>
+
+
+
