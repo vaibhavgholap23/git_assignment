@@ -1,0 +1,7 @@
+ Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used?
+ 
+The main difference is between --force and --force-with-lease is, suppose let's assume we are in we taken clone of repo from head 1 after that some commits are done by others now the head is head 3. Now if we do push --force it will over wirte the all previous commits and forcefully it push the code. If we do git push --force-with-lease in the same above scenario remote repo will reject the push because remote repo and local repo are not at the same head.
+
+If some has accidentally pushed the code into your branch and now you want to remove all that then it is best to use 'git push --force'
+
+If we are working on a project with a team at that time, if we want to push the code to the main branch but we don't the that the head is at same or not at that time we use git 'push --force-with-lease'. If it is at same head the push will accepted, if it is at different head the push will be rejected. 
