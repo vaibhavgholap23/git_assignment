@@ -6,4 +6,4 @@ Q3. How to combine two commits into one commit? For Example, you have 4 differen
 	command: git rebase -i HEAD~2 (In the place of 2 we can write any head number that we 	want to rebase)
    Now, the base will be at HEAD 2
    2. Editor window will open when we run the above command in that change the 'pick' to 	'squash' for the C3.
-   3. Verify that 2 commits are combined or not by running 'git log' co
+   3. Verify that 2 commits are combined or not by running 'git log' command.
