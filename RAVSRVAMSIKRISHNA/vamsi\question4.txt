@@ -1,0 +1,13 @@
+Question 4: How to delete one commit or multiple commits permanently Write command for it.
+
+There are 2 cases here 
+1. Deleting recent commits 
+2. Delete something which is in the middle of the tree.
+
+Case-1: 
+ git reset --hard HEAD~num(where nu is the number of commits this commit is far) and finally push it into the repository
+
+Case-2: 
+ git rebase -i HEAD~num
+ Change to drop.
+

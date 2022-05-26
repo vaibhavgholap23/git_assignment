@@ -1,0 +1,6 @@
+Question 3
+
+We can combine 2 commits using git squash command and the procedure for that is 
+1.Use the command git rebase -i HEAD~3(gets the details of last 3 commits)
+2. When a terminal opens, change "pick" to "squash" 
+3. Edit the commit message accordingly

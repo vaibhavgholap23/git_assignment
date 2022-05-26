@@ -1,0 +1,10 @@
+Question 5
+
+Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario 
+--force-with-lease is used?
+
+--force is a destructive and it overwrites the remote repository by deleting the changes in it.
+--force-with-lease checks for any changes made in the remote repository that are not updated locally. If the code is unable to push, then
+   we'll need to update our local repository first and then pushing our work to remote repo.
+
+force-with-lease should be used if we need to push the changes made in local repo without damaging the entire files. 

@@ -1,0 +1,10 @@
+1.
+
+Cherry Pick is used to bring the commits from branches to current working HEAD. There are other commands like rebase or merge but they 
+merge the entire branch. Cherry pick brings only the selected commit
+
+steps to use 
+a. Get the commit ID using git log 
+b. Come to main branch and type the command "git cherry-pick commit_id"
+
+if we want to add this to staging area instead of commiting use the command git cherry-pick -h 

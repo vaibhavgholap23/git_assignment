@@ -1,0 +1,16 @@
+Question 2
+
+How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+1. The common command to add a repository is git remote add REMOTE-ID REMOTE-URL
+2. Create a new repository in the gitgub.
+3. Add it to your local repository by using the command "git remote add origin <repo url>"
+	
+   We use 'origin' as REMOTE-ID and we use 'github repo url' as REMOTE-URL
+4. Now create another new repository.
+5. Add it to same local repo by using the 1st command with different REMOTE-ID and REMOTE-URL as shown below
+	'git remote add upstream <repo url>'
+	
+6. Now run 'git remote -v' command to check 2 repositories are added or not.
+
+Use case: When we are working on a big projects we can set multiple repos to divide the work between team people.
