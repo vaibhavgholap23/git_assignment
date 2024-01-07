@@ -1,0 +1,7 @@
+1. What is cherry-pick? Explain the use case of it also write steps to do it.
+you can cherry-pick a commit on one branch to create a copy of the commit with the same changes on another branch. If you commit changes to the wrong branch or want to make the same changes to another branch, you can cherry-pick the commit to apply the changes to another branch. You can also use cherry-picking to apply specific changes before you are ready to create or merge a pull request.
+
+
+1. git log
+2. commit id of commit
+3.git cherry -p <commit_id>
