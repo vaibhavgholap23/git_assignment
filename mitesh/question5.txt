@@ -1,0 +1,10 @@
+Q5. Difference between --force push and --force-with-lease,
+ You have to show the use of both,
+ also you have to show in what scenario --force-with-lease is used?
+---->
+ When there is a git push you want to perform and the remote repo rejects it,
+ there is a dangerous way to make it work: git push --force
+ This dangerous method is so popular most IDEs have a special checkbox for it.
+ But force has a sibling which is not getting enough attention:
+ git push --force-with-lease
+
