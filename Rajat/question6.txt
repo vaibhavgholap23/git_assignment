@@ -1,0 +1,7 @@
+Q6: How to un stage changes from the staged area. write command for it.
+
+=> We can unstage changes from the staged area by the below command.
+
+	command : git reset
+
+   
