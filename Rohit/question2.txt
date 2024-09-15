@@ -1,0 +1,6 @@
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+=>  The common command to add multiple repos is  
+	command-1: git remote add REMOTE-ID REMOTE-URL
+
+
